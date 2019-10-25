@@ -1,1 +1,49 @@
-<mxfile host="www.draw.io" modified="2019-10-25T03:48:29.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:69.0) Gecko/20100101 Firefox/69.0" version="12.1.5" etag="sUQnS1M5JvnvGyzTvY2X" type="github"><diagram id="CnaUmy4kEiV2vl9we7kB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-25T03:53:13.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:69.0) Gecko/20100101 Firefox/69.0" etag="Ale4XpkEXLeS04Lwykmr" version="12.1.5" type="github" pages="1">
+  <diagram id="CnaUmy4kEiV2vl9we7kB" name="Page-1">
+    <mxGraphModel dx="511" dy="346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-1" value="采购申请流程" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="548" height="480" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-2" value="采购员" style="swimlane;html=1;startSize=20;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-1">
+          <mxGeometry y="20" width="140" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-6" value="发起采购申请" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-2">
+          <mxGeometry x="20" y="50" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-3" value="采购经理" style="swimlane;html=1;startSize=20;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-1">
+          <mxGeometry x="140" y="20" width="148" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uuvVXL1FbtY9BG9Td0Qf-3" source="uuvVXL1FbtY9BG9Td0Qf-9" target="uuvVXL1FbtY9BG9Td0Qf-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-9" value="采购经理审批" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-3">
+          <mxGeometry x="20" y="50" width="95" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-10" value="审批通过" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-3">
+          <mxGeometry x="28" y="140" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-16" value="通过" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-3">
+          <mxGeometry x="108" y="160" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-4" value="财务主管" style="swimlane;html=1;startSize=20;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-1">
+          <mxGeometry x="288" y="20" width="140" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-14" value="付费流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-4">
+          <mxGeometry x="20" y="150" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-5" value="第三方" style="swimlane;html=1;startSize=20;" vertex="1" parent="uuvVXL1FbtY9BG9Td0Qf-1">
+          <mxGeometry x="428" y="20" width="120" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uuvVXL1FbtY9BG9Td0Qf-1" source="uuvVXL1FbtY9BG9Td0Qf-6" target="uuvVXL1FbtY9BG9Td0Qf-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uuvVXL1FbtY9BG9Td0Qf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uuvVXL1FbtY9BG9Td0Qf-1" source="uuvVXL1FbtY9BG9Td0Qf-10" target="uuvVXL1FbtY9BG9Td0Qf-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
